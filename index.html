@@ -20,7 +20,7 @@
       </div>
   <!--End of Jumbotron-->
 
-
+<!--The key here is remember your column totals for each row need to equal 12-->
 <div class="container">
   
 <div class="row row-buffer ">
@@ -30,6 +30,8 @@
     <button type="button" value ="9" class="btn btn-success col-4">Save</button>
 </div>
 
+
+
 <div class="row row-buffer">
     <div class = "col-2 time-column" id ="row-10" style= "background-color: pink;">10:00 </div>
     <textarea class="col-6 text-value" style= "background-color: aquamarine;"></textarea>
@@ -37,17 +39,18 @@
     <button type="button" value ="10" class="btn btn-success col-4">Save</button>
 </div>
 
-<div class="row row-buffer">
-    <div class = "col-2 time-column row-passed" id ="row-11">11:00 </div>
-    <textarea class="col-6 text-value" >  Sample Text
-    </textarea>
 
-    <button type="button" value ="11" class="btn btn-success col-4">Save</button>
+<div class="row row-buffer">
+    <div class = "col-2 time-column" id ="row-11" style= "background-color: pink;">11:00 </div>
+    <textarea class="col-6 text-value" style= "background-color: aquamarine;">Sample Text</textarea>
+
+    <button type="button" value ="10" class="btn btn-success col-4">Save</button>
 </div>
+
 
 <div class="row row-buffer">
     <div class = "col-2 time-column " id ="row-12" style= "background-color: pink;">12:00 </div>
-    <textarea class="col-6 text-value">  Sample Text
+    <textarea class="col-6 text-value" style= "background-color: aquamarine;">  Sample Text
     </textarea>
 
     <button type="button" value ="12" class="btn btn-success col-4">Save</button>
@@ -55,12 +58,10 @@
 
 
 
-
-
-
-
 </div> <!--End of your container-->
 
+
+<!--This is how to add a buffer to your grid. This SHOULD be in a stylesheet-->
 <style>
     .row-buffer {
          margin-top: 20px;
